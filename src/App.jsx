@@ -1,4 +1,5 @@
 import Button from "./components/Button/Button";
+import StudentsList from "./components/StudentsList/StudentsList";
 
 function App(){
 
@@ -6,6 +7,7 @@ function App(){
    <div>
      <Button/>
     <Button/>
+    <StudentsList/>
    </div>
 
   );
