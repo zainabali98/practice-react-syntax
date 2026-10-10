@@ -1,12 +1,14 @@
 import React from 'react'
 import './Button.css'
 
-
+function handleClick(){
+    console.log('Button Clicked')
+}
 function Button() {
   return (
     <div>
 
-<p>Upload</p>
+<p onClick={handleClick}>Upload</p>
 
     </div>
   )
