@@ -5,15 +5,17 @@ function StudentsList() {
     const students = ['Ahmad', 'Ali', 'Husna', 'Abdullah', 'Sarah', 'Zainab', 'Raghad', 'Sayed Hamed']
 
     return (
-        <div>StudentsList:
+        <div>Students List:
 
             <ul>
-                {students.map((student) => (
+
+                {students.filter((student)=> student !== 'Sayed Hamed').map((student) => (
                     <li key={student}>
                         {student}
                     </li>
 
                 ))}
+
             </ul>
 
         </div>
